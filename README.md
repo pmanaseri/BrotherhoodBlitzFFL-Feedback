@@ -67,7 +67,5 @@ This repo is only for feedback. The private site code lives somewhere else.
 
 For future me:
 
-- Feedback labels and categories are documented in [docs/feedback-taxonomy.md](docs/feedback-taxonomy.md).
-- New site areas should be added using [docs/adding-new-area.md](docs/adding-new-area.md).
-- Board setup notes live in [docs/project-board.md](docs/project-board.md).
+- Private maintainer guides live in the private `BrotherhoodBlitzFFL` code repo under `docs/feedback-intake/`.
 - Keep the main README simple and league-friendly.
