@@ -4,17 +4,29 @@ Got something weird, broken, slow, missing, ugly, confusing, or just plain annoy
 
 This is the place to tell me.
 
+## TL;DR
+
+🚩 See a problem? Report it.
+
+📸 Screenshots help.
+
+🧾 Short and messy is fine.
+
+👀 This is public, so do not post private stuff.
+
+📋 Admins use the board to sort and track everything.
+
 ## Start Here
 
 [Open a Report](https://github.com/pmanaseri/BrotherhoodBlitzFFL-Feedback/issues/new/choose)
 
 Pick the form that feels closest. It does not have to be perfect.
 
-- Something broke? Use **Bug Report**.
-- Something looks off? Use **Visual / UI Issue**.
-- Something is slow? Use **Speed / Performance Issue**.
-- Score, stat, roster, owner, team, or standings look wrong? Use one of the league data forms.
-- Not sure where it belongs? Use **General / Missing**.
+- 🛠️ Something broke? Use **Bug Report**.
+- 🎨 Something looks off? Use **Visual / UI Issue**.
+- ⏱️ Something is slow? Use **Speed / Performance Issue**.
+- 📊 Score, stat, roster, owner, team, or standings look wrong? Use one of the league data forms.
+- 🤷 Not sure where it belongs? Use **General / Missing**.
 
 No stress. If you pick the wrong form, we can move it later.
 
@@ -22,12 +34,12 @@ No stress. If you pick the wrong form, we can move it later.
 
 When you report something, try to include:
 
-- Where you saw it.
-- What looked wrong.
-- What you expected instead.
-- A screenshot, if it is visual.
-- Your phone/browser, if it only happens on one device.
-- The season, week, player, owner, team, or matchup, if it is a league data issue.
+- 📍 Where you saw it.
+- 🔎 What looked wrong.
+- ✅ What you expected instead.
+- 📸 A screenshot, if it is visual.
+- 📱 Your phone/browser, if it only happens on one device.
+- 🏈 The season, week, player, owner, team, or matchup, if it is a league data issue.
 
 Short reports are fine. A messy report is better than no report, but expect delays and follow-up questions.
 
@@ -35,11 +47,11 @@ Short reports are fine. A messy report is better than no report, but expect dela
 
 This is public, so please do not post:
 
-- Passwords.
-- Private account details.
-- Payment info.
-- API keys or tokens.
-- Anything you would not want the whole league/public to see.
+- 🔐 Passwords.
+- 🧍 Private account details.
+- 💳 Payment info.
+- 🗝️ API keys or tokens.
+- 🙈 Anything you would not want the whole league/public to see.
 
 ## Follow Along
 
