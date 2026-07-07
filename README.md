@@ -1,58 +1,61 @@
 # Brotherhood Blitz FFL Feedback
 
-Public feedback intake for Brotherhood Blitz FFL.
+Got something weird, broken, slow, missing, ugly, confusing, or just plain annoying on the Brotherhood Blitz site?
 
-This repository is for league members to report bugs, missing data, confusing pages, speed issues, visual issues, and feature ideas. It does not contain the private Brotherhood Blitz site code.
+This is the place to tell us.
 
-Project board:
+## Start Here
 
-[Brotherhood Blitz League Feedback](https://github.com/users/pmanaseri/projects/3)
+[Open a Report](https://github.com/pmanaseri/BrotherhoodBlitzFFL-Feedback/issues/new/choose)
 
-## File A Report
+Pick the form that feels closest. It does not have to be perfect.
 
-Use the issue form that best matches the problem:
+- Something broke? Use **Bug Report**.
+- Something looks off? Use **Visual / UI Issue**.
+- Something is slow? Use **Speed / Performance Issue**.
+- Score, stat, roster, owner, team, or standings look wrong? Use one of the league data forms.
+- Not sure where it belongs? Use **General / Missing**.
 
-- Bug Report
-- Feature Request
-- Scoring / Stats Issue
-- Roster / Owner / Team Issue
-- Visual / UI Issue
-- Speed / Performance Issue
-- General / Missing
+No stress. If you pick the wrong form, we can move it later.
 
-If none of the forms fit, use General / Missing.
+## What Helps Most
 
-## What To Include
+When you report something, try to include:
 
-- The page or area where the issue happened.
-- What you expected to happen.
-- What actually happened.
-- Screenshots or screen recordings when visuals matter.
-- Browser, device, or app details when the problem is device-specific.
-- Season, week, team, owner, player, or matchup details when the report is about league data.
+- Where you saw it.
+- What looked wrong.
+- What you expected instead.
+- A screenshot, if it is visual.
+- Your phone/browser, if it only happens on one device.
+- The season, week, player, owner, team, or matchup, if it is a league data issue.
 
-Do not post passwords, tokens, private account details, payment info, or anything that should stay off a public issue tracker.
+Short reports are fine. A messy report is better than no report.
 
-## How Reports Are Organized
+## Please Do Not Post
 
-Issues use a small set of structured labels:
+This is public, so please do not post:
 
-- `type:*` describes the kind of report.
-- `component:*` describes the site area or backend/data owner.
-- `impact:*` describes the user-facing symptom.
-- `priority:*` describes urgency.
-- `status:*` describes triage state.
+- Passwords.
+- Private account details.
+- Payment info.
+- API keys or tokens.
+- Anything you would not want the whole league to see.
 
-The full taxonomy is documented in [docs/feedback-taxonomy.md](docs/feedback-taxonomy.md).
+## Follow Along
 
-When a new site module, section, or backend area is added, update the feedback intake using [docs/adding-new-area.md](docs/adding-new-area.md).
+You can see what has been reported here:
 
-## Maintainer Notes
+[Brotherhood Blitz League Feedback Board](https://github.com/users/pmanaseri/projects/3)
 
-Keep this repo clean and league-facing:
+That board is mostly for admins to sort, review, and track reports. League members can still watch what is going on.
 
-- Use plain language in issue forms.
-- Keep developer-only backlog in the private repo.
-- Add new components only when the site area actually exists.
-- Keep General / Missing as the catch-all instead of adding speculative labels.
-- Close duplicates and stale reports with a clear reason.
+## Behind The Scenes
+
+This repo is only for feedback. The private site code lives somewhere else.
+
+For maintainers:
+
+- Feedback labels and categories are documented in [docs/feedback-taxonomy.md](docs/feedback-taxonomy.md).
+- New site areas should be added using [docs/adding-new-area.md](docs/adding-new-area.md).
+- Board setup notes live in [docs/project-board.md](docs/project-board.md).
+- Keep the main README simple and league-friendly.
