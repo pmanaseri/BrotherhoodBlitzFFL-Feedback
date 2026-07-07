@@ -4,8 +4,6 @@ title: "[Bug]: "
 labels:
   - "type: bug"
   - "status: backlog"
-projects:
-  - "pmanaseri/4"
 body:
   - type: dropdown
     id: area

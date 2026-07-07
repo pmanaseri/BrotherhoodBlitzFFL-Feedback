@@ -6,8 +6,6 @@ labels:
   - "impact: UI"
   - "impact: Visual"
   - "status: backlog"
-projects:
-  - "pmanaseri/4"
 body:
   - type: dropdown
     id: area

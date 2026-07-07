@@ -57,7 +57,7 @@ This is public, so please do not post:
 
 You can see what has been reported here:
 
-[Brotherhood Blitz League Feedback Board](https://github.com/users/pmanaseri/projects/4)
+[Brotherhood Blitz League Feedback Board](https://github.com/users/pmanaseri/projects/7)
 
 That board is mostly for admins to sort, review, and track reports. Users can still watch what is going on.
 

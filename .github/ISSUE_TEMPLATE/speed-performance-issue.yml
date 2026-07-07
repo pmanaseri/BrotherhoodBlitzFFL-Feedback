@@ -5,8 +5,6 @@ labels:
   - "type: bug"
   - "impact: Speed"
   - "status: backlog"
-projects:
-  - "pmanaseri/4"
 body:
   - type: dropdown
     id: area

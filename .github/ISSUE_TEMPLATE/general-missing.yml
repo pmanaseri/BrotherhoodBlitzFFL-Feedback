@@ -4,8 +4,6 @@ title: "[General/Missing]: "
 labels:
   - "component: General/Missing"
   - "status: backlog"
-projects:
-  - "pmanaseri/4"
 body:
   - type: dropdown
     id: report-type
