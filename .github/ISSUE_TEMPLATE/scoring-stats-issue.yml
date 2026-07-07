@@ -1,0 +1,73 @@
+name: Scoring / Stats Issue
+description: Report wrong, missing, stale, or confusing league data.
+title: "[Scoring/Stats]: "
+labels:
+  - "type: bug"
+  - "impact: Data/Stats"
+  - "status: new"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Data Area
+      options:
+        - Calendar/Scoring
+        - Matchups/Standings
+        - League Analytics
+        - Salary Report
+        - Roster
+        - Transactions
+        - Draft Board
+        - League Data
+        - Backend/Data
+        - General/Missing
+    validations:
+      required: true
+  - type: input
+    id: season-week
+    attributes:
+      label: Season / Week
+      description: Include season and week when relevant.
+    validations:
+      required: false
+  - type: input
+    id: team-owner
+    attributes:
+      label: Team / Owner / Matchup
+      description: Name the affected team, owner, or matchup.
+    validations:
+      required: false
+  - type: input
+    id: player
+    attributes:
+      label: Player
+      description: Include player name if the issue is player-specific.
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: What Looks Wrong?
+      description: Describe the missing, stale, or incorrect data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Should It Show?
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / Source Context
+      description: Add screenshots or context that helps verify the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+    validations:
+      required: false
+

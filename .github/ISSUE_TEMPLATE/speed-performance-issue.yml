@@ -1,0 +1,73 @@
+name: Speed / Performance Issue
+description: Report slow pages, timeouts, delayed loading, or stuck states.
+title: "[Speed]: "
+labels:
+  - "type: bug"
+  - "impact: Speed"
+  - "status: new"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Banner
+        - Owners Directory
+        - Salary Dashboard
+        - League Analytics
+        - Team Front Office
+        - Press Box
+        - Salary Report
+        - Trade Block
+        - Roster
+        - Transactions
+        - Draft Board
+        - Alerts
+        - Backend/Data
+        - General/Missing
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: What Is Slow Or Stuck?
+      description: Describe what loaded slowly, timed out, or never finished.
+    validations:
+      required: true
+  - type: input
+    id: timing
+    attributes:
+      label: Rough Timing
+      description: How long did it take?
+    validations:
+      required: false
+  - type: dropdown
+    id: repeatable
+    attributes:
+      label: Does It Happen Repeatedly?
+      options:
+        - Every time
+        - Sometimes
+        - One time so far
+        - Not sure
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Device / Browser / Network
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / Recordings
+    validations:
+      required: false
+

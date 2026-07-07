@@ -1,0 +1,75 @@
+name: Visual / UI Issue
+description: Report layout, styling, readability, mobile, or confusing interaction issues.
+title: "[Visual/UI]: "
+labels:
+  - "type: bug"
+  - "impact: UI"
+  - "impact: Visual"
+  - "status: new"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Banner
+        - Owners Directory
+        - Salary Dashboard
+        - League Analytics
+        - Team Front Office
+        - Press Box
+        - Salary Report
+        - Trade Block
+        - Roster
+        - Transactions
+        - Draft Board
+        - Alerts
+        - General/Missing
+    validations:
+      required: true
+  - type: dropdown
+    id: visual-type
+    attributes:
+      label: Visual/UI Type
+      options:
+        - Layout or spacing
+        - Text is hard to read
+        - Mobile issue
+        - Button or control is confusing
+        - Image or badge issue
+        - Color or contrast
+        - Other visual issue
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: What Looks Or Feels Wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Should It Look Like Or Do?
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Device / Browser / Screen Size
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / Recordings
+      description: Visual reports should include screenshots when possible.
+    validations:
+      required: false
+

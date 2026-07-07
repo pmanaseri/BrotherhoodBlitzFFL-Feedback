@@ -1,0 +1,61 @@
+name: Roster / Owner / Team Issue
+description: Report owner identity, roster, team name, avatar, or role mapping issues.
+title: "[Roster/Owner/Team]: "
+labels:
+  - "type: bug"
+  - "impact: Data/Stats"
+  - "status: new"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Owners Directory
+        - Team Front Office
+        - Roster
+        - Identity/Owners
+        - Rosters
+        - Banner
+        - General/Missing
+    validations:
+      required: true
+  - type: input
+    id: team-owner
+    attributes:
+      label: Team / Owner
+      description: Name the affected team or owner.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What Is Wrong?
+      description: Describe the incorrect roster, identity, team name, avatar, or role behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Should It Show?
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / Recordings
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+    validations:
+      required: false
+

@@ -1,0 +1,52 @@
+[
+  {"name":"type: bug","color":"d73a4a","description":"Broken or incorrect behavior."},
+  {"name":"type: feature","color":"a2eeef","description":"New request or improvement idea."},
+  {"name":"type: question","color":"d876e3","description":"Question, clarification, or confusion report."},
+
+  {"name":"status: new","color":"cfd3d7","description":"Submitted and not fully triaged."},
+  {"name":"status: needs info","color":"fbca04","description":"Reporter details are needed before work can continue."},
+  {"name":"status: accepted","color":"0e8a16","description":"Valid report accepted into the work queue."},
+  {"name":"status: in progress","color":"1d76db","description":"Actively being worked."},
+  {"name":"status: ready for review","color":"5319e7","description":"Ready for reporter or maintainer verification."},
+  {"name":"status: blocked","color":"b60205","description":"Accepted but blocked by another dependency."},
+  {"name":"status: done","color":"0e8a16","description":"Completed."},
+  {"name":"status: duplicate","color":"cfd3d7","description":"Same report already exists."},
+  {"name":"status: not planned","color":"cccccc","description":"Valid report but not planned."},
+
+  {"name":"priority: league-blocker","color":"b60205","description":"Blocks league usage, access, workflows, or data trust."},
+  {"name":"priority: important","color":"fbca04","description":"Should be handled soon, but league operation can continue."},
+  {"name":"priority: polish","color":"c5def5","description":"Quality, clarity, or presentation improvement."},
+
+  {"name":"impact: UI","color":"1d76db","description":"Controls, layout, navigation, or interaction problem."},
+  {"name":"impact: Visual","color":"5319e7","description":"Styling, spacing, alignment, color, image, or presentation problem."},
+  {"name":"impact: Speed","color":"f9d0c4","description":"Slow page, timeout, delayed load, or stuck state."},
+  {"name":"impact: Mobile","color":"0052cc","description":"Phone or small-screen issue."},
+  {"name":"impact: Data/Stats","color":"7057ff","description":"Wrong, missing, stale, or confusing league data."},
+  {"name":"impact: Access/Login","color":"d4c5f9","description":"Login, permission, visibility, or role access issue."},
+  {"name":"impact: Copy/Content","color":"0e8a16","description":"Wording, page text, labels, or instructions."},
+
+  {"name":"component: Banner","color":"5319e7","description":"Banner, role badges, header identity, or banner assets."},
+  {"name":"component: Owners Directory","color":"5319e7","description":"Owners directory and owner listing surface."},
+  {"name":"component: Salary Dashboard","color":"5319e7","description":"Salary dashboard or salary admin surface."},
+  {"name":"component: League Analytics","color":"5319e7","description":"League analytics, charts, source status, and insights."},
+  {"name":"component: Team Front Office","color":"5319e7","description":"Team Front Office dashboard shell and owner/fan console."},
+  {"name":"component: General/Missing","color":"ededed","description":"Catch-all for reports that do not map cleanly yet."},
+
+  {"name":"component: Press Box","color":"0e8a16","description":"Team Front Office Press Box section."},
+  {"name":"component: Salary Report","color":"0e8a16","description":"Team Front Office Salary Report section."},
+  {"name":"component: Trade Block","color":"0e8a16","description":"Team Front Office Trade Block section."},
+  {"name":"component: Roster","color":"0e8a16","description":"Team Front Office Roster section."},
+  {"name":"component: Transactions","color":"0e8a16","description":"Team Front Office Transactions section."},
+  {"name":"component: Draft Board","color":"0e8a16","description":"Team Front Office Draft Board section."},
+  {"name":"component: Alerts","color":"0e8a16","description":"Team Front Office Alerts section."},
+
+  {"name":"component: Backend/Data","color":"0366d6","description":"Backend data, stack, cache, or source issue."},
+  {"name":"component: Identity/Owners","color":"0366d6","description":"Owner identity, profile, avatar, team name, or role mapping."},
+  {"name":"component: Rosters","color":"0366d6","description":"Roster data, roster display, roster ownership, or roster freshness."},
+  {"name":"component: Salary Manager","color":"0366d6","description":"Salary Manager backend, contracts, cap rules, or salary truth."},
+  {"name":"component: League Data","color":"0366d6","description":"League settings, league records, history, or league source data."},
+  {"name":"component: Matchups/Standings","color":"0366d6","description":"Matchups, standings, playoff results, or bracket data."},
+  {"name":"component: Drafts/Picks","color":"0366d6","description":"Draft board, draft picks, traded picks, or draft data."},
+  {"name":"component: Calendar/Scoring","color":"0366d6","description":"Fantasy calendar, scoring state, week state, or scoring timing."}
+]
+
