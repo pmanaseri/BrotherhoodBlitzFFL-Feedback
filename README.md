@@ -2,7 +2,7 @@
 
 Got something weird, broken, slow, missing, ugly, confusing, or just plain annoying on the Brotherhood Blitz site?
 
-This is the place to tell us.
+This is the place to tell me.
 
 ## Start Here
 
@@ -29,7 +29,7 @@ When you report something, try to include:
 - Your phone/browser, if it only happens on one device.
 - The season, week, player, owner, team, or matchup, if it is a league data issue.
 
-Short reports are fine. A messy report is better than no report.
+Short reports are fine. A messy report is better than no report, but expect delays and follow-up questions.
 
 ## Please Do Not Post
 
@@ -39,7 +39,7 @@ This is public, so please do not post:
 - Private account details.
 - Payment info.
 - API keys or tokens.
-- Anything you would not want the whole league to see.
+- Anything you would not want the whole league/public to see.
 
 ## Follow Along
 
@@ -47,13 +47,13 @@ You can see what has been reported here:
 
 [Brotherhood Blitz League Feedback Board](https://github.com/users/pmanaseri/projects/3)
 
-That board is mostly for admins to sort, review, and track reports. League members can still watch what is going on.
+That board is mostly for admins to sort, review, and track reports. Users can still watch what is going on.
 
 ## Behind The Scenes
 
 This repo is only for feedback. The private site code lives somewhere else.
 
-For maintainers:
+For future me:
 
 - Feedback labels and categories are documented in [docs/feedback-taxonomy.md](docs/feedback-taxonomy.md).
 - New site areas should be added using [docs/adding-new-area.md](docs/adding-new-area.md).
