@@ -4,6 +4,10 @@ Public feedback intake for Brotherhood Blitz FFL.
 
 This repository is for league members to report bugs, missing data, confusing pages, speed issues, visual issues, and feature ideas. It does not contain the private Brotherhood Blitz site code.
 
+Project board:
+
+[Brotherhood Blitz League Feedback](https://github.com/users/pmanaseri/projects/3)
+
 ## File A Report
 
 Use the issue form that best matches the problem:
@@ -52,4 +56,3 @@ Keep this repo clean and league-facing:
 - Add new components only when the site area actually exists.
 - Keep General / Missing as the catch-all instead of adding speculative labels.
 - Close duplicates and stale reports with a clear reason.
-

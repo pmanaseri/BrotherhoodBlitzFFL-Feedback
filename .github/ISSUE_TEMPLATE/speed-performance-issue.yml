@@ -5,6 +5,8 @@ labels:
   - "type: bug"
   - "impact: Speed"
   - "status: new"
+projects:
+  - "pmanaseri/3"
 body:
   - type: dropdown
     id: area
@@ -70,4 +72,3 @@ body:
       label: Screenshots / Recordings
     validations:
       required: false
-

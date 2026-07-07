@@ -4,6 +4,8 @@ title: "[General/Missing]: "
 labels:
   - "component: General/Missing"
   - "status: new"
+projects:
+  - "pmanaseri/3"
 body:
   - type: dropdown
     id: report-type
@@ -69,4 +71,3 @@ body:
       label: Additional Context
     validations:
       required: false
-
