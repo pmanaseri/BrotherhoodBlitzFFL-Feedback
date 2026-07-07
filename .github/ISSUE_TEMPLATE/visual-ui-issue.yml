@@ -5,7 +5,7 @@ labels:
   - "type: bug"
   - "impact: UI"
   - "impact: Visual"
-  - "status: new"
+  - "status: backlog"
 projects:
   - "pmanaseri/4"
 body:

@@ -3,7 +3,7 @@ description: Report something broken or behaving incorrectly.
 title: "[Bug]: "
 labels:
   - "type: bug"
-  - "status: new"
+  - "status: backlog"
 projects:
   - "pmanaseri/4"
 body:

@@ -4,7 +4,7 @@ title: "[Speed]: "
 labels:
   - "type: bug"
   - "impact: Speed"
-  - "status: new"
+  - "status: backlog"
 projects:
   - "pmanaseri/4"
 body:

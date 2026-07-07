@@ -3,7 +3,7 @@ description: Use this when the report does not fit another form.
 title: "[General/Missing]: "
 labels:
   - "component: General/Missing"
-  - "status: new"
+  - "status: backlog"
 projects:
   - "pmanaseri/4"
 body:
