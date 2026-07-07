@@ -7,7 +7,7 @@ labels:
   - "impact: Visual"
   - "status: new"
 projects:
-  - "pmanaseri/3"
+  - "pmanaseri/4"
 body:
   - type: dropdown
     id: area
